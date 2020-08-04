@@ -37,6 +37,8 @@ public class serializeTest {
                 .then().assertThat().log().all().statusCode(200).extract().response();
         String responseString = resp.asString();
         System.out.println(responseString);
+        System.out.println(responseString);
+        System.out.println(responseString);
 
     }
 
